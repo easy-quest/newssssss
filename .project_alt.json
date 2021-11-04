@@ -1,0 +1,4 @@
+{
+  "src/*.py": {"alternate": "test/{}.py"},
+  "test/*.py": {"alternate": "src/{}.py"}
+}

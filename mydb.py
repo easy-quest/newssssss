@@ -1,5 +1,6 @@
 import sqlite3
 
+
 class News:
     def __init__(self):
         self.con = sqlite3.connect('test.db')
@@ -21,4 +22,9 @@ class News:
         self.cur.execute("""INSERT OR IGNORE INTO newsdb VALUES(?,?,?,?,?,?)""",
                 item)
         self.con.commit()
+
+    def read(self):
+        self.cur.execute("""SELECT * FROM newasdb""")
+        rows = self.cur.fetchall()
+        return rows
 
