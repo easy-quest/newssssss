@@ -1,5 +1,9 @@
+#!/usr/  bin/env python
+# -*- coding: utf-8 -*-
+
 from requests_html import HTMLSession
-session = HTMLSession()
+session = HTMLSessio
+
 
 #url = 'https://news.google.com/topstories?hl=ru&gl=RU&ceid=RU:ru'
 url = 'https://news.google.com/topics/CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE/sections/CAQiUENCSVNOam9JYkc5allXeGZkakpDRUd4dlkyRnNYM1l5WDNObFkzUnBiMjV5Q3hJSkwyMHZNR1p3Y3pBMWVnc0tDUzl0THpCbWNITXdOU2dBKjEIACotCAoiJ0NCSVNGem9JYkc5allXeGZkako2Q3dvSkwyMHZNR1p3Y3pBMUtBQVABUAE?hl=ru&gl=RU&ceid=RU%3Aru'
